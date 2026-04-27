@@ -1,0 +1,25 @@
+_metadata:
+  major_version: 1
+
+display_information:
+  name: Central Agent Phase 1
+  description: Cron bot for sprint briefs, nudges, and escalations.
+
+features:
+  bot_user:
+    display_name: Central Agent
+    always_online: false
+
+oauth_config:
+  scopes:
+    bot:
+      - channels:read
+      - chat:write
+      - groups:read
+      - im:write
+      - users:read
+
+settings:
+  org_deploy_enabled: false
+  socket_mode_enabled: false
+  token_rotation_enabled: false

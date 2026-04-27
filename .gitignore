@@ -1,0 +1,5 @@
+.sentry.env
+node_modules/
+dist/
+.env
+.vercel/

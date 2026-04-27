@@ -1,0 +1,80 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Central Agent bot icon</title>
+  <desc id="desc">A central command-node bot avatar with connected operational signal nodes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="174" y1="126" x2="850" y2="898" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#18212A"/>
+      <stop offset="1" stop-color="#0B1117"/>
+    </linearGradient>
+    <linearGradient id="shell" x1="278" y1="249" x2="750" y2="776" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FAFC"/>
+      <stop offset="0.53" stop-color="#DCE7EE"/>
+      <stop offset="1" stop-color="#94A9B7"/>
+    </linearGradient>
+    <linearGradient id="visor" x1="330" y1="430" x2="695" y2="565" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D171F"/>
+      <stop offset="1" stop-color="#172532"/>
+    </linearGradient>
+    <filter id="softShadow" x="123" y="121" width="778" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="28"/>
+      <feGaussianBlur stdDeviation="34"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.02 0 0 0 0 0.04 0 0 0 0.42 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+    <filter id="nodeGlow" x="-60%" y="-60%" width="220%" height="220%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.02 0 0 0 0 0.8 0 0 0 0 0.74 0 0 0 0.55 0"/>
+      <feBlend in="SourceGraphic" mode="normal"/>
+    </filter>
+  </defs>
+
+  <rect width="1024" height="1024" rx="220" fill="url(#bg)"/>
+  <circle cx="512" cy="512" r="394" fill="#101923"/>
+  <circle cx="512" cy="512" r="393" stroke="#263748" stroke-width="2"/>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M316 344L210 262" stroke="#2AD6C9" stroke-width="22" opacity="0.48"/>
+    <path d="M708 344L814 262" stroke="#2AD6C9" stroke-width="22" opacity="0.48"/>
+    <path d="M275 548L156 548" stroke="#FDBA4B" stroke-width="22" opacity="0.55"/>
+    <path d="M749 548L868 548" stroke="#FDBA4B" stroke-width="22" opacity="0.55"/>
+    <path d="M348 710L244 808" stroke="#2AD6C9" stroke-width="22" opacity="0.42"/>
+    <path d="M676 710L780 808" stroke="#2AD6C9" stroke-width="22" opacity="0.42"/>
+  </g>
+
+  <g filter="url(#nodeGlow)">
+    <circle cx="204" cy="258" r="42" fill="#16252D" stroke="#2AD6C9" stroke-width="18"/>
+    <circle cx="820" cy="258" r="42" fill="#16252D" stroke="#2AD6C9" stroke-width="18"/>
+    <circle cx="150" cy="548" r="44" fill="#201B13" stroke="#FDBA4B" stroke-width="18"/>
+    <circle cx="874" cy="548" r="44" fill="#201B13" stroke="#FDBA4B" stroke-width="18"/>
+    <circle cx="239" cy="813" r="38" fill="#16252D" stroke="#2AD6C9" stroke-width="16"/>
+    <circle cx="785" cy="813" r="38" fill="#16252D" stroke="#2AD6C9" stroke-width="16"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <path d="M512 168C535.196 168 554 186.804 554 210V246H470V210C470 186.804 488.804 168 512 168Z" fill="#2AD6C9"/>
+    <circle cx="512" cy="166" r="35" fill="#FDBA4B"/>
+    <circle cx="512" cy="166" r="16" fill="#FFF4C7"/>
+
+    <path d="M286 436C286 333.827 368.827 251 471 251H553C655.173 251 738 333.827 738 436V591C738 692.621 655.621 775 554 775H470C368.379 775 286 692.621 286 591V436Z" fill="url(#shell)"/>
+    <path d="M313 436C313 348.739 383.739 278 471 278H553C640.261 278 711 348.739 711 436V591C711 677.709 640.709 748 554 748H470C383.291 748 313 677.709 313 591V436Z" stroke="#FFFFFF" stroke-width="14" opacity="0.42"/>
+
+    <path d="M340 433C340 394.34 371.34 363 410 363H614C652.66 363 684 394.34 684 433V520C684 558.66 652.66 590 614 590H410C371.34 590 340 558.66 340 520V433Z" fill="url(#visor)"/>
+    <path d="M366 435C366 411.804 384.804 393 408 393H616C639.196 393 658 411.804 658 435V517C658 540.196 639.196 559 616 559H408C384.804 559 366 540.196 366 517V435Z" stroke="#2AD6C9" stroke-width="10" opacity="0.68"/>
+
+    <circle cx="439" cy="475" r="31" fill="#2AD6C9"/>
+    <circle cx="585" cy="475" r="31" fill="#2AD6C9"/>
+    <circle cx="431" cy="465" r="10" fill="#EFFFFD"/>
+    <circle cx="577" cy="465" r="10" fill="#EFFFFD"/>
+    <path d="M468 637C494.5 659.667 529.5 659.667 556 637" stroke="#18232D" stroke-width="22" stroke-linecap="round"/>
+
+    <path d="M274 484C247.49 484 226 505.49 226 532V569C226 595.51 247.49 617 274 617H293V484H274Z" fill="#90A5B4"/>
+    <path d="M750 484C776.51 484 798 505.49 798 532V569C798 595.51 776.51 617 750 617H731V484H750Z" fill="#90A5B4"/>
+
+    <path d="M396 739H628V798C628 833.346 599.346 862 564 862H460C424.654 862 396 833.346 396 798V739Z" fill="#263746"/>
+    <rect x="439" y="802" width="146" height="32" rx="16" fill="#FDBA4B"/>
+  </g>
+</svg>
